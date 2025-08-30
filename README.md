@@ -78,29 +78,29 @@ This tells Heroku/Render how to run your app:
 web: gunicorn app:app
 
 # Installation & Setup  
-# 1. Clone the repository  
+### 1. Clone the repository  
 
-git clone https://github.com/bhagyasreeganuga/student-performance-tracker.git
-cd student-performance-tracker
+- **git clone https://github.com/bhagyasreeganuga/student-performance-tracker.git**
+- **cd student-performance-tracker**
 
-# 2. Create environment
-python -m venv venv
-venv\Scripts\activate     # Windows
-source venv/bin/activate  # Mac/Linux
+### 2. Create environment
+- **python -m venv venv**
+- **venv\Scripts\activate     # Windows**
+- **source venv/bin/activate  # Mac/Linux**
 
-# 3. Install dependencies
-pip install -r requirements.txt
+### 3. Install dependencies
+- **pip install -r requirements.txt**
 
-# 4. Run the apllication locally
-python app.py
+### 4. Run the apllication locally
+- **python app.py**
 
-# 5. Database Setup
-The SQLite database (students.db) will be auto-created when you first run app.py.
+### 5. Database Setup
+- **The SQLite database (students.db) will be auto-created when you first run app.py.**
 
-# Deployment
-Push to GitHub
-Use Heroku/Render for free deployment
-# Heroku Deployment
+### Deployment
+- **Push to GitHub**
+- **Use Heroku/Render for free deployment**
+### Heroku Deployment
 1.Login to Heroku
 2.heroku login
 3.Create app
