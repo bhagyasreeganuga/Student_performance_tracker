@@ -13,13 +13,25 @@ It allows:
 -Displaying Obverall Topper
 The project uses **SQLite** for database storage and can be deployed to **Heroku / Railway / Render** for online access.  
 
-# Features
-👩‍🏫 Add students with roll number & name
-📚 Enter multiple subjects and marks (0–100)
-🏆 Display subject-wise toppers (only one per subject)
-📈 Show each student’s overall average
-💾 Persistent data storage with SQLite
-🌐 Ready for deployment on Heroku/Render
+## ✨ Features  
+
+- 👩‍🎓 **Add Students**  
+  Register students with **Roll Number** & **Name**  
+
+- 📚 **Subject & Marks Entry**  
+  Enter **multiple subjects** with marks (**0–100**)  
+
+- 🏆 **Topper Highlight**  
+  Display **subject-wise toppers** (only one per subject)  
+
+- 📊 **Performance Analysis**  
+  Show each student’s **overall average**  
+
+- 💾 **Persistent Storage**  
+  Store data securely with **SQLite database**  
+
+- 🌐 **Deployment Ready**  
+  Easily deploy on **Heroku / Render / Vercel**  
   
 # Tech Stack  
 - **Backend**: Python (Flask)  
