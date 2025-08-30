@@ -27,21 +27,23 @@ The project uses **SQLite** for database storage and can be deployed to **Heroku
 - **Frontend**: HTML, CSS, Jinja2 templates  
 - **Deployment**: Heroku / Render / Railway
 
-# Project Str
-student-performance-tracker/
-│── app.py                # Flask application
-│── requirements.txt      # Python dependencies
-│── Procfile              # Deployment configuration (Heroku)
-│── README.md             # Project documentation
-│── students.db           # SQLite database (auto-created)
-│── templates/            # HTML templates
-│   ├── index.html
-│   ├── add_student.html
-│   ├── view_students.html
-│   ├── subject_toppers.html
-│   ├── overall_toppers.html
-│── static/               # CSS, images, JS (optional)
+# Project Structure
 
+```bash
+student-performance-tracker/
+│── app.py # Flask application
+│── requirements.txt # Python dependencies
+│── Procfile # Deployment configuration (Heroku)
+│── README.md # Project documentation
+│── students.db # SQLite database (auto-created)
+│── templates/ # HTML templates
+│ ├── index.html
+│ ├── add_student.html
+│ ├── view_students.html
+│ ├── subject_toppers.html
+│ ├── overall_toppers.html
+│── static/ # CSS, images, JS (optional)
+```
 
 # Workflow
 opens the website.
