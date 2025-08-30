@@ -101,17 +101,17 @@ web: gunicorn app:app
 - **Push to GitHub**
 - **Use Heroku/Render for free deployment**
 ### Heroku Deployment
-1.Login to Heroku
-2.heroku login
-3.Create app
-heroku create student-performance-tracker
-# Push code
-git add .
-git commit -m "Initial commit"
-git push heroku main
-# Open app in browser
-heroku open
+- **1.Login to Heroku**
+- **2.heroku login**
+- **3.Create app**
+- **heroku create student-performance-tracker**
+### Push code
+- **git add .**
+- **git commit -m "Initial commit"**
+- **git push heroku main**
+### Open app in browser
+- **heroku open**
 
-# Author
-Bhagya Sree G
-Vault Of Codes Internship Project
+### Author
+- **Bhagya Sree G**
+- **Vault Of Codes Internship Project**
