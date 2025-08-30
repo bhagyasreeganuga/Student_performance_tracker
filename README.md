@@ -58,20 +58,20 @@ student-performance-tracker/
 ```
 
 # Workflow
-opens the website.
-Navigates to Add Student → fills roll no, name, subject(s), marks.
-Data gets stored in SQLite database.
-Teacher can View Student List with all records.
-Teacher can Update/Delete entries when needed.
+- **opens the website**.
+- **Navigates to Add Student → fills roll no, name, subject(s), marks**.
+- **Data gets stored in SQLite database**.
+- **Teacher can View Student List with all records**.
+- **Teacher can Update/Delete entries when needed**.
 
 ## requirements.txt
-This file lists all Python dependencies your app needs:
-Flask==3.0.3
-Jinja2==3.1.4
-Werkzeug==3.0.3
-itsdangerous==2.2.0
-click==8.1.7
-gunicorn==23.0.0
+- **This file lists all Python dependencies your app needs**:
+- **Flask==3.0.3**
+- **Jinja2==3.1.4**
+- **Werkzeug==3.0.3**
+- **itsdangerous==2.2.0**
+- **click==8.1.7**
+- **gunicorn==23.0.0**
 
 ## Procfile
 This tells Heroku/Render how to run your app:
